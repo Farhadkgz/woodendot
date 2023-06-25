@@ -237,33 +237,38 @@ body{
 
 /*----------------------------------------------*/
 
-/*Block4-------------------------------------*/
+/*CLOE-------------------------------------*/
 
-.block4{
+.cloe{
 	width: 100%;
-	height: 657px;
+	height: 542.10938px;
+	margin-top: 114.89px;
 	background: #F7F7F7;
-	position: relative;
+	display: flex;
 
 }
 
-.block4_img{
+.cloe_img{
 	width: 960px;
 	height: 542px;
-	background: url(../image/block4.png)no-repeat;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-
 }
 
-.block4 h1{
+.cloe_title{
+	width: 384.016px;
+	height: 494.125px;
+	margin: 48px 49px 0 48px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.cloe h1{
 	width: 67px;
 	height: 56px;
-	margin: 163px 0 0 365px;
+	
 }
 
-.block4 h1{
+.cloe h1{
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
@@ -274,13 +279,13 @@ body{
 
 }
 
-.block4 h4{
-	margin: 4px 0 0 240px;
+.cloe h4{
+	margin-top: 4px;
 	width: 192px;
 	height: 38px;
 }
 
-.block4 h4{
+.cloe h4{
 	font-family: 'Cardo';
 	font-style: italic;
 	font-weight: 400;
@@ -290,8 +295,8 @@ body{
 	color: #000000;
 }
 
-.block4 h5{
-	margin: 19px 0 0 348px;
+.cloe h5{
+	margin-top: 19px;
 	height: 28px;
 	font-family: 'Cardo';
 	font-style: normal;
@@ -302,13 +307,13 @@ body{
 
 }
 
-.block4 p{
-	margin: 12px 0 0 21px;
+.cloe p{
+	margin-top: 12px;
 	width: 437px;
 	height: 92px;
 }
 
-.block4 p{
+.cloe p{
 	font-family: 'Cardo';
 	font-style: normal;
 	font-weight: 400;
@@ -319,14 +324,14 @@ body{
 
 }
 
-.block4 h3{
-	margin: 66px 0 0 357px;
+.cloe h3{
+	margin-top: 66px;
 	width: 75px;
 	height: 22px;
 	border-bottom: 1px solid #000 ;
 }
 
-.block4 h3 a{
+.cloe h3 a{
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -348,17 +353,17 @@ body{
 }
 
 .box_pelican_img img{
-	width: height: 542px;;
+	width: 960px;
+	height: 542px;
 }
 
 .box_pelican_title{
+	margin: 96px 0 0 50.42px;
 	display: flex;
 	flex-direction: column;
 }
 
 .box_pelican_title h1{
-	height: 56px;
-	margin: 96px 0 0 38px;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
@@ -369,8 +374,7 @@ body{
 }
 
 .box_pelican_title h4{
-	height: 38px;
-	margin: 4px 0 0 38px;
+	margin-top: 4px;
 	font-family: 'Cardo';
 	font-style: italic;
 	font-weight: 400;
@@ -381,8 +385,7 @@ body{
 }
 
 .box_pelican_title h5{
-	height: 28px;
-	margin: 18px 0 0 38px;
+	margin-top: 18px;
 	font-family: 'Cardo';
 	font-style: normal;
 	font-weight: 400;
@@ -392,8 +395,7 @@ body{
 }
 
 .box_pelican_title p{
-	height: 92px;
-	margin: 22px 0 0 38px;
+	margin-top: 22px;
 	font-family: 'Cardo';
 	font-style: normal;
 	font-weight: 400;
@@ -403,8 +405,11 @@ body{
 
 }
 
+.box_pelican_title h3{
+	margin-top: 47px;
+}
+
 .box_pelican_title h3 a{
-	margin: 47px 0 0 41px;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -419,22 +424,23 @@ body{
 /*Alada------------------------*/
 
 .box_alada{
+	margin-top: 28.7px;
 	width: 100%;
-	height: 571px;
+	height: 542.10938px;
 	background: #F7F7F7;
 	display: flex;
-	flex-direction: row-reverse;
+	
 }
 
 .box_alada_img img{
 	width: 960px;
 	height: 542px;
-	margin-top: 29px;
+	
 }
 
 .box_alada_title span{
 	width: 132px;
-	margin: 76px 0 0 300px;
+	
 	font-family: 'Cardo';
 	font-style: italic;
 	font-weight: 400;
@@ -446,14 +452,15 @@ body{
 }
 
 .box_alada_title{
+	margin: 48px 48px 0 48px;
 	display: flex;
 	flex-direction: column;
+	align-items: flex-end;
 }
 
 
 .box_alada_title h1{
-	height: 56px;
-	margin: 20px 0 0 349px;
+	margin-top: 20px;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
@@ -465,7 +472,7 @@ body{
 
 .box_alada_title h4{
 	height: 38px;
-	margin: 4px 0 0 268px;
+	margin-top: 4px;
 	font-family: 'Cardo';
 	font-style: italic;
 	font-weight: 400;
@@ -476,8 +483,7 @@ body{
 }
 
 .box_alada_title h5{
-	height: 28px;
-	margin: 18px 0 0 360px;
+	margin-top: 18px;
 	font-family: 'Cardo';
 	font-style: normal;
 	font-weight: 400;
@@ -487,13 +493,13 @@ body{
 }
 
 .box_alada_title p{
-	height: 92px;
-	margin: 46px 0 0 77px;
+	margin-top: 46px;
 	font-family: 'Cardo';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 31px;
+	text-align: right;
 	color: #54595F;
 
 }
@@ -501,7 +507,7 @@ body{
 .box_alada_title h6{
 	width: 120px;
 	height: 28px;
-	margin: 25px 0 0 312px;
+	margin-top: 25px;
 	font-family: 'Cardo';
 	font-style: normal;
 	font-weight: 400;
@@ -514,8 +520,7 @@ body{
 
 .box_alada_title h3{
 	width: 75px;
-	height: 22px;
-	margin: 48px 0 0 351px;
+	margin-top: 48px;
 
 }
 
@@ -639,26 +644,31 @@ body{
 .box_batea{
 	width: 100%;
 	height: 591px;
+	margin-top: 29px;
 	background: #F7F7F7;
 	display: flex;
-	flex-direction: row-reverse;
+	
 }
 
 .box_batea_img img{
 	width: 960px;
 	height: 542px;
-	margin-top: 29px;
+	margin: 0 0 19.73px 48px;
 }
 
 .box_batea_title{
+	margin: 95.98px 0 0 38.39px;
+	width: 393.609px;
+	height: 466.125px;
 	display: flex;
 	flex-direction: column;
+	align-items: flex-end;
+
 }
 
 
 .box_batea_title h1{
 	height: 56px;
-	margin: 125px 48px 0 201px;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
@@ -670,7 +680,7 @@ body{
 
 .box_batea_title h4{
 	height: 38px;
-	margin: 4px 48px 0 175px;
+	margin-top: 4px;
 	font-family: 'Cardo';
 	font-style: italic;
 	font-weight: 400;
@@ -682,7 +692,7 @@ body{
 
 .box_batea_title h5{
 	height: 28px;
-	margin: 18px 48px 0 360px;
+	margin-top: 18px;
 	font-family: 'Cardo';
 	font-style: normal;
 	font-weight: 400;
@@ -693,7 +703,7 @@ body{
 
 .box_batea_title p{
 	height: 123px;
-	margin: 46px 48px 0 62px;
+	margin-top: 46px;
 	font-family: 'Cardo';
 	font-style: normal;
 	font-weight: 400;
@@ -704,9 +714,8 @@ body{
 }
 
 .box_batea_title h6{
-	width: 120px;
-	height: 28px;
-	margin: 25px 48px 0 312px;
+
+	margin-top: 23px;
 	font-family: 'Cardo';
 	font-style: normal;
 	font-weight: 400;
@@ -720,7 +729,8 @@ body{
 .box_batea_title h3{
 	width: 75px;
 	height: 22px;
-	margin: 48px 48px 0 351px;
+	margin-top: 48px;
+	
 
 }
 
@@ -786,6 +796,8 @@ body{
 
 }
 
+/*footer_gallery*/
+
 .footer_gallery{
 	height: 312px;
 	margin-top: 53px;
@@ -829,26 +841,246 @@ body{
 
 }
 
+/*footer_gallery_button*/
+
 .footer_gallery_button{
 	margin-top: 20px;
 	display: flex;
+	align-items: center;
 	gap: 7px;
 }
 
-/*.footer_gallery_button_first{
+.footer_gallery_count1{
 	width: 10px;
 	height: 10px;
-	background: #000000;
+	background-color: #000;
 }
 
-.footer_gallery_button_second{
+.footer_gallery_count2{
 	width: 7px;
 	height: 7px;
-	background: #000000;
+	background-color: #000;
 }
-*/
-.footer_gallery_button button{
+
+.footer_gallery_button div:nth-child(3){
 	width: 3px;
 	height: 3px;
 	background-color: #000;
 }
+
+.footer_gallery_button div:nth-child(4){
+	width: 3px;
+	height: 3px;
+	background-color: #000;
+}
+
+.footer_gallery_button div:nth-child(5){
+	width: 3px;
+	height: 3px;
+	background-color: #000;
+}
+
+.footer_gallery_button div:nth-child(6){
+	width: 3px;
+	height: 3px;
+	background-color: #000;
+}
+
+.footer_gallery_button div:nth-child(7){
+	width: 3px;
+	height: 3px;
+	background-color: #000;
+}
+
+
+/*-- FOOT_ITEM---------------! --*/
+
+.foot_item {
+	width: 100%;
+	height: 334px;
+	margin-top: 43.52px;
+	background-color: #F6F6F6;
+	display: flex;
+}
+
+.foot_item_design {
+	width: 360px;
+	height: 334px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: #fff;
+
+}
+
+.foot_item_design h1{
+	margin-top: 29px;
+	color: #000;
+	text-align: center;
+	font-size: 24px;
+	font-family: Cardo;
+	line-height: 35px;
+}
+
+.foot_item_design p{
+	margin-top: 12px;
+	width: 283px;
+	height: 56px;
+	color: #000;
+	text-align: center;
+	font-size: 15px;
+	font-family: Cardo;
+	line-height: 27.857px;
+}
+
+.foot_item_design button{
+	margin-top: 25px;
+	color: #000;
+	font-size: 15px;
+	font-family: Cardo;
+	line-height: 15px;
+	text-decoration-line: underline;
+	cursor: pointer;
+	border: none; outline: none;
+	background-color: #fff;
+}
+
+/*footprint*/
+
+.foot_item_footprint{
+	width: 360px;
+	height: 334px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: #F6F6F6;
+}
+
+.foot_item_footprint h1{
+	margin-top: 29px;
+	color: #000;
+	text-align: center;
+	font-size: 24px;
+	font-family: Cardo;
+	line-height: 35px;
+}
+
+.foot_item_footprint p{
+	width: 297px;
+	height: 56px;
+	margin-top: 12px;
+	color: #000;
+	text-align: center;
+	font-size: 15px;
+	font-family: Cardo;
+	line-height: 27.857px;
+}
+
+.foot_item_footprint button{
+	margin-top: 23px;
+	color: #000;
+	font-size: 15px;
+	font-family: Cardo;
+	line-height: 15px;
+	text-decoration-line: underline;
+	cursor: pointer;
+	border: none; outline: none;
+	background-color: #F6F6F6;
+}
+
+/*made*/
+
+.foot_item_made{
+	width: 319px;
+	height: 334px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: #fff;
+}
+
+.foot_item_made h1{
+	margin-top: 29px;
+	color: #000;
+	text-align: center;
+	font-size: 24px;
+	font-family: Cardo;
+	line-height: 35px;
+}
+
+.foot_item_made p{
+	margin-top: 12px;
+	width: 283px;
+	height: 56px;
+	color: #000;
+	text-align: center;
+	font-size: 15px;
+	font-family: Cardo;
+	line-height: 27.857px;
+}
+
+.foot_item_made button{
+	margin-top: 26px;
+	color: #000;
+	font-size: 15px;
+	font-family: Cardo;
+	line-height: 15px;
+	text-decoration-line: underline;
+	cursor: pointer;
+	border: none; outline: none;
+	background-color: #fff;
+}
+
+/*wood*/
+
+.foot_item_wood{
+	width: 360px;
+	height: 334px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: #F6F6F6;
+}
+
+.foot_item_wood h1{
+	margin-top: 29px;
+	color: #000;
+	text-align: center;
+	font-size: 24px;
+	font-family: Cardo;
+	line-height: 35px;
+}
+
+.foot_item_wood p{
+	margin-top: 12px;
+	width: 280px;
+	height: 56px;
+	color: #000;
+	text-align: center;
+	font-size: 15px;
+	font-family: Cardo;
+	line-height: 27.857px;
+}
+
+.foot_item_wood button{
+	margin-top: 23px;
+	color: #000;
+	font-size: 15px;
+	font-family: Cardo;
+	line-height: 15px;
+	text-decoration-line: underline;
+	cursor: pointer;
+	border: none; outline: none;
+	background-color: #F6F6F6;
+}
+
+
+
