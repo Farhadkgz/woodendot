@@ -12,19 +12,21 @@ a{
 }
 
 body{
-	margin-top: 50px;
+	width: 100%;
 	background: #E5E5E5;
-}
-
-.content{
-	margin: auto;
-	width: 1440px;
-	background-color: #F7F7F7;
+	font-family: 'Cardo', serif;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+.content{
+	background: #F7F7F7;
+}
+
+
 
 /*HEADER----------------------------------*/
 
@@ -73,6 +75,7 @@ body{
 	height: 698px;
 	margin-top: 36px;
 	background: url(../image/block_1.png)no-repeat;
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -152,6 +155,7 @@ body{
 	background: #F7F7F7;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .block2 div:nth-child(1){
@@ -208,12 +212,16 @@ body{
 	width: 100%;
 	height: 320px;
 	display: flex;
+	justify-content: center;
+
+
 }
 
 .block3_1{
 	width: 360px;
 	height: 320px;
 	background: url(../image/block3_1.png)no-repeat;
+
 }
 
 .block3_2{
@@ -746,7 +754,13 @@ body{
 }
 
 
-/*<!-- Gallery---------------! -->*/
+/*<!-- BOX-Gallery---------------! -->*/
+
+.gallery{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 .gallery_title{
 	display: flex;
@@ -777,9 +791,78 @@ body{
 	color: #000000;
 }
 
-.gallery {
+.gallery_img {
 	display: flex;
 	gap: 10px;
+}
+
+.paula{
+	position: relative;
+}
+
+.paula_absolute{
+	position: absolute;
+	top: 41px;
+	right: 20px;
+	color: #fff;
+	text-align: right;
+	font-size: 14px;
+	font-family: Cardo;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27.857px;
+	
+
+}
+
+.paula_absolute img{
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+.linda{
+	position: relative;
+}
+
+.linda_absolute{
+	position: absolute;
+	top: 41px;
+	right: 21px;
+	color: #FFF;
+	text-align: right;
+	font-size: 14px;
+	font-family: Cardo;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27.857px;
+
+}
+
+.linda_absolute img{
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+.marta{
+	position: relative;
+}
+
+.marta_absolute{
+	position: absolute;
+	top: 41px;
+	right: 20px;
+	color: #FFF;
+	text-align: right;
+	font-size: 15px;
+	font-family: Cardo;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27.857px;
+}
+
+.marta img{
+	vertical-align: middle;
+	margin-right: 4px;
 }
 
 .gallery_button{
@@ -1111,6 +1194,9 @@ body{
 	margin-top: 41px;
 }
 
+
+/*-- FOOT_Buttom---------------*/
+
 .foot_buttom{
 	width: 100%;
 	height: 448px;
@@ -1123,6 +1209,7 @@ body{
 .foot_buttom_parent{
 	width: 1140px;
 	height: 284.156px;
+	margin-top: 40px;
 	display: flex;
 }
 
